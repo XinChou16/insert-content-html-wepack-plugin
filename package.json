@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "browser": "index.js",
+  "unpkg": "index.js",
+  "jsdelivr": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/XinChou16/insert-content-html-wepack-plugin/issues"
   },
-  "homepage": "https://github.com/XinChou16/insert-content-html-wepack-plugin#readme"
+  "homepage": "https://github.com/XinChou16/insert-content-html-wepack-plugin#readme",
+  "peerDependencies": {
+    "webpack": "^4.46.0"
+  }
 }
