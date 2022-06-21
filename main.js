@@ -4,6 +4,8 @@
  * dependencies:
  * "webpack": "^4.46.0"
  * "html-webpack-plugin": "^3.2.0"
+ * 
+ * 在特定位置下插入内容
  */
 
 // usage
@@ -33,7 +35,7 @@ const normalizeOption = option => {
     return option;
 };
 
-class Skeleton {
+class InsertAfterContentHtmlPlugin {
     constructor(option) {
         // cotent [{ insertedAfter: '', content: ''}]
         this.injectOptions = normalizeOption(option);
@@ -70,4 +72,4 @@ class Skeleton {
     }
 }
 
-module.exports = Skeleton;
+module.exports = InsertAfterContentHtmlPlugin;
